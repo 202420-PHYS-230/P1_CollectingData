@@ -4,4 +4,4 @@
 supervisord*
 *-backups
 *.lck
-
+.DS_Store
