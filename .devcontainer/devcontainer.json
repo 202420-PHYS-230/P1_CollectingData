@@ -4,7 +4,7 @@
 	"name": "PHYS-230, MENG-230",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "us.gcr.io/gcpdrive-sjstest/novnc:1",
-	//"image": "chvnc",
+	//"image": "novnc",
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
@@ -18,7 +18,8 @@
 			"extensions": [
 				"ms-python.python",
 				"ms-toolsai.jupyter",
-				"mechatroner.rainbow-csv"
+				"mechatroner.rainbow-csv",
+				"quarto.quarto"
 			]
 		}
 	},
