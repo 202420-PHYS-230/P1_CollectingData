@@ -8,3 +8,5 @@ supervisord*
 
 /.quarto/
 /output
+
+*.quarto_ipynb

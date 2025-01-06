@@ -16,11 +16,8 @@ editor:
 
 For each project there'll be a template like this. I'll try to make the early templates more of a "fill in the blank" experience, but as the semester progresses you'll be seeing less and less scaffolding and more of bare bones layout with a lot of room for creativity and flexibility. The rubric will remain consistent for all the projects. When you are ready to commit your final report, you can delete this cell, and any other cells that are purely made up of instructions.
 
-This is a test. Blah test sdfsd
-
 {{< embed CurveFitting.ipynb#curve_fit_example >}}
 
-We can also include data
+Math $x=3$.
 
-hello.
-
+![a divider](images/divider.png){fig-align="left" width="557"}
