@@ -20,4 +20,4 @@ For each project there'll be a template like this. I'll try to make the early te
 
 Math $x=3$.
 
-![a divider](images/divider.png){fig-align="left" width="557"}
+![Fig. 1: The external circuit we used to implement a voltage divider and an RC circuit.](images/divider.png){fig-align="left" width="557"}
