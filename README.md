@@ -28,13 +28,13 @@ Each week we'll be working on a project that will combine ideas from data analys
 
 There are some "in-class" components, some "in-lab" components, as well as some reading and homework you'll be doing over the same period.
 
-* In Class: [Linear Regression](LinearRegression.ipynb)
-* In Lab: [Collecting Data from simple experiments](Lab.ipynb)
+* In Class: [Linear Regression (Curve Fitting)](CurveFitting.ipynb)
+* In Lab: [Collecting Data from simple experiments](ControlAndMeasure.ipynb)
 * Homework: Reading, Writing
 
+As the semester progresses, the projects become less prescriptive and more open-ended. The final project is entirely open-ended.
 
-
-Finally, these low level skills culminate in overall course outcomes:
+Finally, these low level skills culminate in overall course outcomes that we'll be revisiting throughout the course:
 
 clo-1 “Students can perform statistical analysis on data collected in the laboratory and make meaningful inferences, including estimates of confidence and uncertainty in model parameters derived from that data.” 
 
@@ -51,6 +51,4 @@ Most of the projects involve writing code for a microcontroller to control the c
 clo-4 “Students will be able to design and implement an open-ended final project involving a computer-controlled interface to a circuit that solves an engineering problem or controls and monitors an external experiment.”
 
 -----------------------
-
-As the semester progresses, the projects become less prescriptive and more open-ended. The final project is entirely open-ended.
 
