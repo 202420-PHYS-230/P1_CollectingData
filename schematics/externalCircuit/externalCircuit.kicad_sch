@@ -364,7 +364,7 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:VDC"
+		(symbol "Simulation_SPICE:VPULSE"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.0254)
@@ -381,7 +381,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1"
+			(property "Value" "VPULSE"
 				(at 2.54 0 0)
 				(effects
 					(font
@@ -408,7 +408,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Voltage source, DC"
+			(property "Description" "Voltage source, pulse"
 				(at 0 0 0)
 				(effects
 					(font
@@ -426,7 +426,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Type" "DC"
+			(property "Sim.Type" "PULSE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -445,6 +445,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Params" "y1=0 y2=1 td=2n tr=2n tf=2n tw=50n per=100n"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
 			(property "ki_keywords" "simulation"
 				(at 0 0 0)
 				(effects
@@ -454,46 +463,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "VDC_0_0"
+			(symbol "VPULSE_0_0"
 				(polyline
 					(pts
-						(xy -1.27 0.254) (xy 1.27 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -0.254) (xy -1.27 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -0.254) (xy -0.254 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.254) (xy 0.762 -0.254)
+						(xy -2.032 -0.762) (xy -1.397 -0.762) (xy -1.143 0.762) (xy -0.127 0.762) (xy 0.127 -0.762) (xy 1.143 -0.762)
+						(xy 1.397 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0)
@@ -512,7 +486,7 @@
 					)
 				)
 			)
-			(symbol "VDC_0_1"
+			(symbol "VPULSE_0_1"
 				(circle
 					(center 0 0)
 					(radius 2.54)
@@ -525,7 +499,7 @@
 					)
 				)
 			)
-			(symbol "VDC_1_1"
+			(symbol "VPULSE_1_1"
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
@@ -1130,7 +1104,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:VDC")
+		(lib_id "Simulation_SPICE:VPULSE")
 		(at 83.82 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1138,9 +1112,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b4cd72e4-f317-4f5c-be6e-6948aaa22d9e")
+		(uuid "bb01dbde-d99c-4920-b6a1-d0e4da275da6")
 		(property "Reference" "V1"
-			(at 87.63 46.8601 0)
+			(at 87.63 45.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1148,8 +1122,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
-			(at 87.63 49.4001 0)
+		(property "Value" "VPULSE"
+			(at 87.63 48.1301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +1149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage source, DC"
+		(property "Description" "Voltage source, pulse"
 			(at 83.82 48.26 0)
 			(effects
 				(font
@@ -1193,7 +1167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" "DC"
+		(property "Sim.Type" "PULSE"
 			(at 83.82 48.26 0)
 			(effects
 				(font
@@ -1212,11 +1186,20 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" "y1=3.3 y2=0 td=2n tr=2n tf=2n tw=500m per=1000m"
+			(at 87.63 50.6701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
-			(uuid "9b59cf75-cd84-4697-a3a9-f349e4af4a83")
+			(uuid "8add207a-19f8-4c43-a149-a542752a01c8")
 		)
 		(pin "2"
-			(uuid "f3a24944-9f9a-498b-bf96-3847db94ae15")
+			(uuid "44aa25ec-8db0-4e4f-9837-edb19f645dc0")
 		)
 		(instances
 			(project ""
