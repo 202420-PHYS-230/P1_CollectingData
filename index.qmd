@@ -35,7 +35,8 @@ The report should have 5 sections:
     * The description is a more in-depth explanation of the experiments done, but without the result. This is not a "procedure," but simply an explanation of what was accomplished, and roughly how it was done.
 2. Schematic and Background
     * A circuit schematic of each experiment. 
-    * Any background information needed to understand the circuits.
+    * Any background information needed to understand the circuits. 
+    * Any simulations you performed to prepare for measurements
 3. Function/Data Collection
     * This is where you explain how you know the circuit functioned correctly.
     * What data did you collect?
@@ -79,11 +80,27 @@ $$ v_2 = \frac{R_2}{R_1 + R_2} v_1 $$
 
 By driving and measuring $v_1$ and also measuring $v_2$, we can check that the measured ratio is close to the expected value.
 
+We can simulation this experiment using a DC sweep simulation.
+
+![DC Sweep](images/sim_divider_config.png)
+
+and graph the output:
+
+![DC Sweep Graph](images/sim_divider.png)
+
 For experiment 2 we'll charge the capacitor by driving pin-17 high as a digital output for a long time (much longer than the expected time constant of the circuit.) Then we'll bring pin-17 to ground and very quickly measure the voltage across the capacitor (at pin-10) as frequently as possible capture the decay curve over time. We know the theoretical decay curve should be exponential:
 
 $$ v_2(t) = v_0 e^{-t/\tau} $$
 
 We can use this model, and the data we collect, to infer the time constant.
+
+We can configure a transient simulation to check this:
+
+![decay transient configuration](images/sim_decay_config.png)
+
+and graph the output
+
+![graph of decay response](images/sim_decay.png)
 
 # 3. Function and Data Collection
 

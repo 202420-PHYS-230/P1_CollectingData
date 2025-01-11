@@ -1111,7 +1111,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bb01dbde-d99c-4920-b6a1-d0e4da275da6")
 		(property "Reference" "V1"
 			(at 87.63 45.5901 0)
@@ -1187,7 +1186,7 @@
 			)
 		)
 		(property "Sim.Params" "y1=3.3 y2=0 td=2n tr=2n tf=2n tw=500m per=1000m"
-			(at 87.63 50.6701 0)
+			(at 35.56 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
