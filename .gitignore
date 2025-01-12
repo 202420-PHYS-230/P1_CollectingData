@@ -10,3 +10,5 @@ supervisord*
 /output
 
 *.quarto_ipynb
+
+fp-cache-info
