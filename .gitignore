@@ -4,6 +4,7 @@
 supervisord*
 *-backups
 *.lck
+*.bak
 .DS_Store
 
 /.quarto/
